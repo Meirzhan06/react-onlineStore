@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Footer from './components/Footer.js';
-import Header from './components/Header.js';
+import Header from './components/header/Header';
+import PromotionHeader from './components/promotionHeader/PromotionHeader';
+import LoginScreen from './screens/LoginScreen/LoginScreen';
+
 
 function App() {
   return (
     <div className="App">
-      <Footer />
+      <PromotionHeader />
       <Header />
+      <LoginScreen />
     </div>
   );
 }

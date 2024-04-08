@@ -1,0 +1,51 @@
+.promotionHeader{
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+}
+.promotionHeaderContent{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    a{
+        color: #fff;
+        margin-left: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.languages{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    img{
+        transition: 0.3s all;
+    }
+}
+.languages.active{
+    img{
+        transform: rotate(-180deg);
+    }
+}
+.variantsLang{
+    display: none;
+    position: absolute;
+    background-color: #000;
+    margin-top: 5px;
+    div{
+        width: 100%;
+        transition: 0.2s all;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+.variantsLang div:hover{
+    background-color: #1d1d1d;
+}
+.variantsLang.active{
+    display: block;
+}
