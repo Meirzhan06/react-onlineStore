@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import PromotionHeader from './components/promotionHeader/PromotionHeader';
 import LoginScreen from './screens/LoginScreen/LoginScreen';
+import RegistrationScreen from './screens/RegistrationScreen/RegistrationScreen';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <PromotionHeader />
       <Header />
       <LoginScreen />
+      {/* <RegistrationScreen /> */}
     </div>
   );
 }
