@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import PromotionHeader from './components/promotionHeader/PromotionHeader';
 import LoginScreen from './screens/LoginScreen/LoginScreen';
@@ -11,8 +12,9 @@ function App() {
     <div className="App">
       <PromotionHeader />
       <Header />
-      <LoginScreen />
-      {/* <RegistrationScreen /> */}
+      {/* <LoginScreen /> */}
+      <RegistrationScreen />
+      <Footer />
     </div>
   );
 }
